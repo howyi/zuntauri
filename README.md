@@ -1,36 +1,23 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# zuntauri
+テキストを最速でずんだもんに読み上げさせるためのデスクトップアプリ(macOS用)
+[![](https://i.gyazo.com/95adac2d952ca20a08fe1636cbe672b4.png)](https://gyazo.com/95adac2d952ca20a08fe1636cbe672b4)
 
-## Getting Started
+操作
+- ALT+Zでフォームを開く
+- ENTERで読み上げ再生
+- ESCAPEでキャンセル
 
-First, run the development server:
-
+## インストール
+- install VOICEVOX https://voicevox.hiroshiba.jp/
+- zuntauriをcloneしてinstall
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm install 
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 実行
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- VOICEVOXを起動
+- zuntauriを起動
+```bash
+npm run tauri dev
+```
